@@ -1,8 +1,14 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Yanoka2010/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Yanoka2010/frontend-project-44/actions)",
+  "description": "[![Actions Status](https://github.com/FreshinS/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/FreshinS/frontend-project-44/actions)",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -11,18 +17,12 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
   },
-  "type": "module",
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
-  },
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.1"
   }
 }
