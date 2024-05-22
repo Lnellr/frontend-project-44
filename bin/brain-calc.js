@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-/* eslint no-eval: 0 */
-import { str, brainCalc } from '../src/games/calc.js';
 import { brainGameStart } from '../src/index.js';
+import { str, brainCalc, a } from '../src/games/calc.js';
 
-brainGameStart(str, brainCalc);
+brainGameStart(a, str, brainCalc);
